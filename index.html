@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <!-- Meta -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Style Page -->
+        <link rel="stylesheet" href="styles.css">
+
+        <!-- Title Page -->
+        <title>EasyChat</title>
+    </head>
+    <body>
+
+        <main>
+            <header>
+                <div class="user-count">0</div>
+                <h1>EasyChat</h1>
+            </header>
+
+            <section class="chat">
+                <p><strong class="admin">EasyChat</strong>: Bienvenue sur EasyChat, nous vous souhaitons de bonne rencontre ainsi que de passer un bon moment !</p>
+                <p><strong class="admin">EasyChat</strong>: Welcome to EasyChat, we wish you a good meeting as well as a good time !</p>
+            </section>
+
+            <form>
+                <input type="text" placeholder="Your message...">
+                <button>Send</button>
+            </form>
+
+        </main>
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script src="https://unpkg.com/cookie_js@1.2.2/cookie.min.js"></script>
+        <script src="https://unpkg.com/socket.io-client@2/dist/socket.io.slim.js"></script>
+        <script src="app.js"></script>
+        <script src="server.js"></script>
+    
+    </body>
+</html>
